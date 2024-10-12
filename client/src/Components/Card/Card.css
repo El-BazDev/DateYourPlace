@@ -1,0 +1,89 @@
+
+.CardContainer {
+    margin: 10rem 0 3rem;
+    width: 33rem;
+    height: 30rem;
+    background-color: rgb(38, 38, 38);
+    border-radius: 2%;
+    padding: 1.3rem;
+    box-shadow: -12px 19px 13px 0px rgba(0, 0, 0, 0.258);
+}
+
+.Card-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.RestoImage {
+    height: 16rem;
+    width: 100%;
+}
+
+.Infotext{
+    margin: .6rem 0 0 0;
+    width: 25rem;
+    padding: 1rem;
+    color: rgb(255, 255, 255);
+}
+
+.ville{
+    font-size: 1.4rem;
+}
+
+.adress {
+    font-size: 1rem;
+}
+
+.Avis{
+    margin: .6rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0 0;
+    width: 10rem;
+    color: aliceblue;
+}
+
+.review{
+    color: rgb(255, 219, 15);
+    margin: 0 0 .6rem;
+}
+
+.InfoCard{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#statut{
+    margin: 1rem 0 0 0;
+    width: 8rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.func-btn{
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.func-btn-wrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.func-btn > img {
+    width: 3rem;
+    height: 3rem;
+}
+
+
+ 

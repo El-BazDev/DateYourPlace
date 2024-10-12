@@ -1,0 +1,39 @@
+
+html{
+  background-color: rgb(255, 254, 243);
+  height: 100vh;
+}
+
+.App {
+  width: 100%;
+  height:100vh;
+}
+
+.NbResto {
+  margin: 0 0 2rem;
+}
+
+.main{
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.ErrorGeo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.errorTitle {
+  text-align: center;
+  margin: 67px 0px 0;
+}
+
+
+

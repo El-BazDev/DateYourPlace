@@ -1,0 +1,36 @@
+.loading-wrapper{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(22, 22, 22);
+}
+
+.loading-container {
+    position: absolute; /* Position child absolutely */
+    top: 50%; /* Move the top edge to 50% of the parent's height */
+    left: 50%; /* Move the left edge to 50% of the parent's width */
+    transform: translate(-50%, -50%); /* Offset the element to center it */
+    display: flex;
+    flex-direction: column; /* Stack the spinner and text */
+    align-items: center;
+  }
+  
+  .spinner {
+    border: 8px solid #f3f3f3; /* Light color for spinner */
+    border-top: 8px solid rgba(199, 172, 138, 0.961);; /* Spinner color */
+    border-radius: 50%;
+    width: 60px; /* Spinner size */
+    height: 60px; /* Spinner size */
+    animation: spin 1s linear infinite; /* Animation effect */
+  }
+  
+  .loading-text {
+    margin-top: 20px; /* Space between spinner and text */
+    color: rgba(199, 172, 138, 0.961); /* Text color */
+    font-size: 24px; /* Text size */
+  }
+  
+  /* Spinner animation */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
